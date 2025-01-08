@@ -1,0 +1,173 @@
+/* background image */
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBjIzf9a4QPiHd0ygiHwLxAbuTJ-jBqbTpwf7-rYIpeg&s);
+}
+
+/* Header text development*/
+h1, h2, h3, h4{
+    text-align: center;
+    color: black;
+}
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+
+/* Main page development*/
+.playerresults{
+    border-radius: 25px;
+    border: 35px solid brown;
+    width: 550px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 550px;
+    background-color: green;
+}
+
+/* picture development*/
+.snookerballpic{
+    display: block;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.trophypicture{
+  display: block;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -5px;
+}
+.snookertowelpic{
+    display: block;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* player text development*/
+.name, .titles{
+    color: burlywood;
+}
+.name{
+    text-align: left;
+    width: 75%;
+}
+.titles{
+    text-align: right;
+    width: 25%;
+}
+.player p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+/* Form development */
+p, input, button, legend, fieldset{
+    text-align: center;
+}
+legend, label{
+    color: burlywood;
+}
+legend{
+    font-size: 18px;
+}
+button{
+    width: 80px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: medium;
+    background-color: grey;
+    border-color: grey;
+}
+.placeholder{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 135px;
+    font-size: medium;
+}
+
+/* Divider line development */
+hr{
+    height: 3px;
+    background-color: burlywood;
+    border-color: burlywood;
+}
+.toppictureline{
+    margin-top: 33px;
+}
+.playerline{
+    height: 1px;
+    background-color: white;
+    border-color: white;
+}
+.fieldsetline, .footerline{
+    height: 1px;
+    background-color: white;
+    border-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottomfieldsetline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    border-color: burlywood;
+}
+
+/* Footer/anchor development */
+footer{
+    font-size: 14px;
+}
+.playerwiki, .wsanchor{
+    color: black;
+}
+.merchweb{
+    color: burlywood;
+}
+.playerwiki:visited{
+    color: black;
+}
+.wsanchor:visited{
+    color: black;
+}
+.merchweb:visited{
+    color: burlywood;
+}
+.merchweb:hover{
+    color: brown;
+}
+.merchweb:active{
+    color: brown;
+}
+.playerwiki:hover{
+    color: brown;
+}
+.playerwiki:active{
+    color: brown;
+}
+.wsanchor:hover{
+    color: brown;
+}
+.wsanchor:active{
+    color: brown;
+}
