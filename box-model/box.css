@@ -28,7 +28,39 @@ text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section.boxes{
+div.rectangle-one{
+background-color: blueviolet;
+padding: 20px;
+border: 5px solid burlywood;
+margin-top: 600px;
+margin: 25px;
+margin-left: 300px;
+height: 105px;
+width: 200px;
+border-radius: 15px;
+opacity: 80%;
+box-sizing: border-box;
+text-align: center;
+font-family: fantasy;
+}
+
+div.rectangle-two{
+background-color:red;
+padding: 20px;
+border: 5px solid burlywood;
+margin-top: 600px;
+margin: 25px;
+margin-left: 400px;
+height: 105px;
+width: 200px;
+border-radius: 15px;
+opacity: 80%;
+box-sizing: border-box;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section.boxes, section.boxes-2{
     display: inline-flex;
 }
 
@@ -36,10 +68,11 @@ body{
     background-color: honeydew;
 }
 ul{
-    display: block;
     color: green;
 }
 p{
-    display: inline;
     color: red;
+}
+div.text{
+    display: inline-flex;
 }
