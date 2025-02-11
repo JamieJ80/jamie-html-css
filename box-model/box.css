@@ -2,7 +2,7 @@ div.box-one{
 background-color: aqua;
 padding: 20px;
 border: 5px solid burlywood;
-margin-left: 65px;
+margin-left: 55px;
 height: 105px;
 width: 200px;
 border-radius: 15px;
@@ -27,10 +27,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div.box-outer{
     width: 600px;
-    margin-left: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 25px;
+    margin: 50px auto 50px auto;
     border: 5px solid blue;
     box-sizing: border-box;
     border-radius: 15px;
@@ -71,7 +69,7 @@ div.far-out-2{
     box-sizing: border-box;
     border: 5px solid green;
     width: 600px;
-    margin-left: 400px;
+    margin: 50px auto 50px auto;
     border-radius: 15px;
 }
 div.far-out{
@@ -97,8 +95,8 @@ div.inner-box{
     width: 200px;
     border: 5px solid burlywood;
     margin: 20px;
-    padding: 20px;
-    padding-left: 30px;
+    padding: 50px 20px 20px 30px;
+    text-align: center;
 }
 div.inner-box-2{
     box-sizing: border-box;
@@ -108,7 +106,34 @@ div.inner-box-2{
     width: 200px;
     border: 5px solid burlywood;
     margin: 20px;
-    padding: 20px;
+    padding: 50px 20px 20px 25px;  
+    text-align: center;
+}
+.horizontal{
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    margin: 50px auto 50px auto;
+    border: 5px solid brown;
+}
+.horizontal h1{
+    color: purple;
+    margin: 50px;
+    border: 3px solid black;
+    padding: 3px;
+    text-align: center;
+}
+#new-box{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto 50px auto;
+    border: 5px solid burlywood;
+    border-radius: 15px;
+    padding: 80px 20px 20px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 section.boxes, section.boxes-2, .inner-box, .inner-box-2{
     display: inline-flex;
