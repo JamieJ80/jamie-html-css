@@ -111,6 +111,8 @@ div.inner-box-2{
 }
 .horizontal{
     box-sizing: border-box;
+    background-color: orange;
+    border-radius: 15px;
     width: 300px;
     height: 200px;
     margin: 50px auto 50px auto;
@@ -126,14 +128,25 @@ div.inner-box-2{
 #new-box{
     box-sizing: border-box;
     background-color: aquamarine;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    margin: 50px auto 50px auto;
+    margin: -80px auto 50px auto;
     border: 5px solid burlywood;
     border-radius: 15px;
     padding: 80px 20px 20px 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+div.like.box{
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    margin: 20px auto 20px auto;
+    padding: 5px;
+    border: 3px dotted grey;
+    text-align: center;
+    color: blue;
+
 }
 section.boxes, section.boxes-2, .inner-box, .inner-box-2{
     display: inline-flex;
