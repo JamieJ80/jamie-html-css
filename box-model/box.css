@@ -71,6 +71,7 @@ div.far-out-2{
     width: 600px;
     margin: 50px auto 50px auto;
     border-radius: 15px;
+    text-align: center;
 }
 div.far-out{
     box-sizing: border-box;
@@ -78,6 +79,10 @@ div.far-out{
     width: 550px;
     margin: 20px;
     border-radius: 15px;
+}
+#biatch{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: burlywood;
 }
 
 div.outer-box{
