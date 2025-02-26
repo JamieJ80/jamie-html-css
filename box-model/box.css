@@ -157,6 +157,13 @@ section.boxes, section.boxes-2, .inner-box, .inner-box-2{
     display: inline-flex;
 }
 
+button{
+    display: block;
+    text-align: center;
+    padding: 8px;
+    margin: -20px auto 10px auto;
+}
+
 body{
     background-color: honeydew;
 }
