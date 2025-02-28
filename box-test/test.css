@@ -1,0 +1,48 @@
+div{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.box-one{
+    display: inline-flex;
+    background-color: red;
+    border: 2px solid burlywood;
+}
+.box-two{
+    display: inline-flex;
+    background-color: blue;
+    border: 2px solid burlywood;
+}
+.box-three{
+    background-color: grey;
+    border: 2px solid burlywood;
+    margin-left: 150px;
+}
+.box-four{
+    display: inline-flex;
+    background-color: aqua;
+    border: 2px solid burlywood;
+}
+.box-five{
+    display: inline-flex;
+    background-color: black;
+    border: 2px solid burlywood;
+}
+.box-six{
+    display: inline-flex;
+    background-color: brown;
+    border: 2px solid burlywood;
+}
+.box-seven{
+    background-color: blueviolet;
+    border: 2px solid burlywood;
+    margin-left: 390px;
+}
+.box-eight{
+    background-color: orange;
+    border: 2px solid burlywood;
+    margin: auto;
+    margin-top: -220px;
+}
