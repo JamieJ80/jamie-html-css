@@ -8,18 +8,9 @@ body{
     display: flex;
     width: auto;
     height: 500px;
-    justify-content: center;
     display: flex;
 }
 
-.menu-container .middle-boxes{
-    align-items: center;
-}
-
-.right-boxes,
-.left-boxes{
-    flex-direction: column;
-}
 
 .left-boxes,
 .middle-boxes, 
@@ -60,12 +51,27 @@ body{
 }
 
 .middle-boxes .box-1{
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
 .middle-boxes .box-3{
     align-self: flex-end;
 }
+
+.right-boxes .box-2,
+.left-boxes .box-2{
+    align-self: center;
+}
+
+.left-boxes,
+.right-boxes{
+    gap: 5px;
+}
+
+
+
+
+
 
 
 
