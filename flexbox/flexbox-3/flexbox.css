@@ -16,10 +16,11 @@ body{
 .middle-boxes, 
 .right-boxes{
    display: flex;
+   flex: 1 1 auto;
 }
 
 .middle-boxes{
-    gap: 100px;
+    gap: 5px;
 }
 
 
@@ -50,22 +51,27 @@ body{
     border: 1px solid white;
 }
 
-.middle-boxes .box-1{
-    align-self: flex-end;
-}
-
+.middle-boxes .box-1,
 .middle-boxes .box-3{
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 .right-boxes .box-2,
 .left-boxes .box-2{
     align-self: center;
 }
+.right-boxes .box-1{
+    align-self: flex-end;
+}
 
 .left-boxes,
 .right-boxes{
     gap: 5px;
+}
+
+.left-boxes,
+.right-boxes{
+    flex-direction: column;
 }
 
 

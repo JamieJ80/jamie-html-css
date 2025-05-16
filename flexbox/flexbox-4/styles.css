@@ -22,26 +22,41 @@ body{
 
 .menu-container{
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     gap: 10px;
+    flex: auto;
 }
 
 .menu-container-2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
-    align-items: center;
+    flex: auto;
 }
 
-.menu-container-2 .column-3{
+.menu-container-2 .column-2{
+    align-self: flex-start;
+}
+
+.menu-container .column-2{
     align-self: flex-end;
+}
+
+.menu-container .column-3,
+.menu-container-2 .column-3{
+    align-self: center;
 }
 
 .menu-container .column-1{
+    align-self: flex-start;
+}
+
+
+.menu-container-2 .column-1{
     align-self: flex-end;
 }
+
+
 
 
 
