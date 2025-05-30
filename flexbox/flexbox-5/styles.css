@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+.menu-container{
+    width: auto;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome{
+    display: flex;
+    color: black;
+}
+
+.links ul{
+    display: flex;
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    gap: 15px;
+}

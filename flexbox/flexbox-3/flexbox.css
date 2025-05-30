@@ -21,6 +21,7 @@ body{
 
 .middle-boxes{
     gap: 5px;
+    justify-content: flex-end;
 }
 
 
