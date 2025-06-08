@@ -10,19 +10,70 @@ body{
     background-color: aqua;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex: 1;
 }
 
-.welcome{
+.container-2{
     display: flex;
-    color: black;
+    background-color: green;
+    border-radius: 15px;
+    margin: 20px;
+    height: 300px;
+    width: 500px;
 }
 
-.links ul{
-    display: flex;
-    color: rebeccapurple;
+.welcome{
+    color: black;
+    align-self: center;
+}
+
+.links{
     font-family: 'Times New Roman', Times, serif;
     list-style-type: none;
     gap: 15px;
+    display: flex;
 }
+
+.one{
+    align-self: flex-end;
+}
+
+.two{
+    align-self: center;
+}
+
+.three{
+    align-self: baseline;
+}
+
+.animal{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex: auto;
+}
+
+.cat{
+    align-self: flex-start;
+}
+
+.pig{
+    align-self: center;
+}
+
+.dog{
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
