@@ -14,11 +14,16 @@ a{
 nav ul{
     display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
+    gap: 20px;
  }
 
- .ally{
+ nav li{
+ 
+}
 
+ .ally{
+   margin-left: auto;
+   margin-right: 20px;
 }
 
 .ronnie{
